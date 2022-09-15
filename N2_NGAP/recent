@@ -1,0 +1,163 @@
+# Recent settings file for Wireshark 3.6.7.
+#
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
+# So be careful, if you want to make manual changes here.
+
+
+# Main Toolbar show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.toolbar_main_show: TRUE
+
+# Filter Toolbar show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.filter_toolbar_show: TRUE
+
+# Wireless Settings Toolbar show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.wireless_toolbar_show: FALSE
+
+# Packet list show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.packet_list_show: TRUE
+
+# Tree view show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.tree_view_show: TRUE
+
+# Byte view show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.byte_view_show: TRUE
+
+# Packet diagram show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.packet_diagram_show: TRUE
+
+# Statusbar show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.statusbar_show: TRUE
+
+# Packet list colorize (hide).
+# TRUE or FALSE (case-insensitive).
+gui.packet_list_colorize: TRUE
+
+# Timestamp display format.
+# One of: RELATIVE, ABSOLUTE, ABSOLUTE_WITH_YMD, ABSOLUTE_WITH_YDOY, ABSOLUTE_WITH_DATE, DELTA, DELTA_DIS, EPOCH, UTC, UTC_WITH_YMD, UTC_WITH_YDOY, UTC_WITH_DATE
+gui.time_format: ABSOLUTE_WITH_YMD
+
+# Timestamp display precision.
+# One of: AUTO, SEC, DSEC, CSEC, MSEC, USEC, NSEC
+gui.time_precision: SEC
+
+# Seconds display format.
+# One of: SECONDS, HOUR_MIN_SEC
+gui.seconds_format: SECONDS
+
+# Zoom level.
+# A decimal number.
+gui.zoom_level: 0
+
+# Bytes view display type.
+# One of: HEX, BITS
+gui.bytes_view: HEX
+
+# Bytes view text encoding.
+# One of: FROM_PACKET, ASCII, EBCDIC
+gui.bytes_encoding: FROM_PACKET
+
+# Packet diagram field values show (hide).
+# TRUE or FALSE (case-insensitive).
+gui.packet_diagram_field_values: FALSE
+
+# Allow hover selection in byte view.
+# TRUE or FALSE (case-insensitive).
+gui.allow_hover_selection: TRUE
+
+# Main window upper (or leftmost) pane size.
+# Decimal number.
+gui.geometry_main_upper_pane: 694
+
+# Main window middle pane size.
+# Decimal number.
+gui.geometry_main_lower_pane: 37
+
+# Packet list column pixel widths.
+# Each pair of strings consists of a column format and its pixel width.
+column.width:
+        %m, 84,
+        %p, 184,
+        %t, 156,
+        "%Cus:ngap.pLMNIdentity", 110,
+        "%Cus:nas_5gs.amf_region_id", 48,
+        "%Cus:ngap.tAC", 99,
+        "%Cus:ngap.NRCellIdentity", 111,
+        "%Cus:ngap.gNB_ID", 77,
+        "%Cus:ngap.AMF_UE_NGAP_ID", 82,
+        "%Cus:ngap.RAN_UE_NGAP_ID", 82,
+        "%Cus:ngap.sST", 74,
+        "%Cus:nas_5gs.mm.sst", 0,
+        "%Cus:ngap.sD", 68,
+        "%Cus:nas_5gs.mm.mm_sd", 0,
+        "%Cus:nas_5gs.mm.type_id", 0,
+        "%Cus:nas_5gs.mm.suci.msin", 0,
+        "%Cus:nas_5gs.5g_tmsi", 0,
+        "%Cus:ip.src", 81,
+        "%Cus:ip.dst", 81,
+        "%Cus:ip.dsfield", 0,
+        "%Cus:udp.srcport", 0,
+        "%Cus:udp.dstport", 0,
+        "%Cus:tcp.srcport", 0,
+        "%Cus:tcp.dstport", 0:L,
+        "%Cus:sctp.srcport", 62,
+        "%Cus:sctp.dstport", 63,
+        "%Cus:ngap.pDUSessionID", 81,
+        "%Cus:nas_5gs.sm.pdu_addr_inf_ipv4", 0,
+        "%Cus:nas_5gs.mm.message_type", 319,
+        "%Cus:ngap.TransportLayerAddressIPv4", 95,
+        "%Cus:ngap.gTP_TEID", 0,
+        "%Cus:ngap.gTP_TEID", 0,
+        "%Cus:ngap.qosFlowIdentifier", 42,
+        "%Cus:ngap.pDUSessionAggregateMaximumBitRateUL", 136,
+        "%Cus:ngap.pDUSessionAggregateMaximumBitRateDL", 136,
+        "%Cus:ngap.procedureCode", 246,
+        "%Cus:nas_5gs.mm.message_type", 319,
+        "%Cus:nas_5gs.sm.message_type", 251,
+        "%Cus:nas_5gs.mm.5gs_reg_type", 0,
+        "%Cus:e212.mcc", 0,
+        "%Cus:e212.mnc", 0,
+        "%Cus:nas_5gs.security_header_type", 0,
+        "%Cus:json.value.string", 0,
+        "%Cus:gtp.teid", 0,
+        "%Cus:http2", 0:C,
+        "%Cus:json.member", 0,
+        "%Cus:http2.type", 0,
+        %i, 3624
+
+# Open conversation dialog tabs.
+# List of conversation names, e.g. "TCP", "IPv6".
+gui.conversation_tabs: 
+	"IPv4", "Ethernet",
+	"IPv6", "TCP",
+	"UDP"
+
+# Open endpoint dialog tabs.
+# List of endpoint names, e.g. "TCP", "IPv6".
+gui.endpoint_tabs: 
+	"IPv4", "Ethernet",
+	"IPv6", "TCP",
+	"UDP"
+
+# For RLC stats, whether to use RLC PDUs found inside MAC frames.
+# TRUE or FALSE (case-insensitive).
+gui.rlc_pdus_from_mac_frames: TRUE
+
+# Last directory navigated to in File Open dialog.
+gui.fileopen_remembered_dir: D:/free5GC/pcaps\
+
+# Additional Toolbars shown
+# List of additional toolbars to show.
+gui.additional_toolbar_show: 
+
+# Interface Toolbars show.
+# List of interface toolbars to show.
+gui.interface_toolbar_show: 

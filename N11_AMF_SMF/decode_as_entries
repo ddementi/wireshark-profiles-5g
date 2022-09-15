@@ -1,0 +1,29 @@
+# "Decode As" entries file for Wireshark 3.6.7.
+#
+# This file is regenerated each time "Decode As" preferences
+# are saved within Wireshark. Making manual changes should be safe,
+# however.
+decode_as_entry: tcp.port,29502,(none),HTTP2
+decode_as_entry: tcp.port,29503,(none),HTTP2
+decode_as_entry: tcp.port,29504,(none),HTTP2
+decode_as_entry: tcp.port,29507,(none),HTTP2
+decode_as_entry: tcp.port,29509,(none),HTTP2
+decode_as_entry: tcp.port,29518,(none),HTTP2
+decode_as_entry: tcp.port,50270,(none),HTTP2
+decode_as_entry: tcp.port,50274,(none),HTTP2
+decode_as_entry: tcp.port,50280,(none),HTTP2
+decode_as_entry: tcp.port,50286,(none),HTTP2
+decode_as_entry: tcp.port,50288,(none),HTTP2
+decode_as_entry: tcp.port,50290,(none),HTTP2
+decode_as_entry: tcp.port,50292,(none),HTTP2
+decode_as_entry: tcp.port,50296,(none),HTTP2
+decode_as_entry: tcp.port,50300,(none),HTTP2
+decode_as_entry: tcp.port,50304,(none),HTTP2
+decode_as_entry: tcp.port,50316,(none),HTTP2
+decode_as_entry: tcp.port,50322,(none),HTTP2
+decode_as_entry: tcp.port,50974,(none),HTTP2
+decode_as_entry: tcp.port,50978,(none),HTTP2
+decode_as_entry: tcp.port,50980,(none),HTTP2
+decode_as_entry: tcp.port,50992,(none),HTTP2
+decode_as_entry: tcp.port,7777,(none),HTTP2
+decode_as_entry: tcp.port,8000,(none),HTTP2
